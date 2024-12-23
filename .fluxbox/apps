@@ -1,0 +1,22 @@
+[app] (name=fbrun) (class=fbrun)
+  [Dimensions]	{800 36}
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=thunar) (class=Thunar)
+  [Deco]	{BORDER}
+  [Maximized]	{yes}
+[end]
+[app] (name=Zutty) (class=Zutty)
+  [Dimensions]	{100% 65%}
+  [Position]	(UPPERLEFT)	{7 0}
+  [Deco]	{BORDER}
+[end]
+[app] (name=freetube) (class=FreeTube)
+  [Deco]	{BORDER}
+  [Maximized]	{yes}
+[end]
+[app] (name=) (class=)
+  [Dimensions]	{100% 35%}
+  [Position]	(UPPERLEFT)	{0% 65%}
+[end]

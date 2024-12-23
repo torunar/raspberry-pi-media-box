@@ -1,0 +1,23 @@
+[begin] (menu)
+
+[exec] (Keyboard) {/usr/bin/matchbox-keyboard}
+
+[separator]
+
+[exec] (FreeTube) {/usr/bin/freetube}
+[exec] (Files) {/usr/bin/thunar}
+[exec] (Terminal) {/usr/bin/zutty & /usr/bin/matchbox-keyboard}
+
+[separator]
+
+#[include] (/etc/X11/fluxbox/fluxbox-menu)
+
+#[config] (Configuration)
+#[submenu] (Styles) {}
+#  [stylesdir] (~/.fluxbox/styles)
+#[end]
+[restart] (Restart)
+[exit] (Exit)
+
+[end]
+
